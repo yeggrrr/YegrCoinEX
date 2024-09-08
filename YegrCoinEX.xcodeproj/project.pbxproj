@@ -12,6 +12,7 @@
 		6886A80A2C8DADCF0060D4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6886A8092C8DADCF0060D4EE /* Assets.xcassets */; };
 		6886A80D2C8DADCF0060D4EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6886A80C2C8DADCF0060D4EE /* Preview Assets.xcassets */; };
 		6886A8142C8DAE0E0060D4EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6886A8132C8DAE0E0060D4EE /* .gitignore */; };
+		6886A8172C8DB1530060D4EE /* CryptoCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A8162C8DB1530060D4EE /* CryptoCoinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		6886A8092C8DADCF0060D4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6886A80C2C8DADCF0060D4EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6886A8132C8DAE0E0060D4EE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6886A8162C8DB1530060D4EE /* CryptoCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				6886A8072C8DADCE0060D4EE /* ContentView.swift */,
 				6886A8092C8DADCF0060D4EE /* Assets.xcassets */,
 				6886A80B2C8DADCF0060D4EE /* Preview Content */,
+				6886A8152C8DB1170060D4EE /* Trending */,
 			);
 			path = YegrCoinEX;
 			sourceTree = "<group>";
@@ -68,6 +71,14 @@
 				6886A80C2C8DADCF0060D4EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6886A8152C8DB1170060D4EE /* Trending */ = {
+			isa = PBXGroup;
+			children = (
+				6886A8162C8DB1530060D4EE /* CryptoCoinView.swift */,
+			);
+			path = Trending;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			files = (
 				6886A8082C8DADCE0060D4EE /* ContentView.swift in Sources */,
 				6886A8062C8DADCE0060D4EE /* YegrCoinEXApp.swift in Sources */,
+				6886A8172C8DB1530060D4EE /* CryptoCoinView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YegrCoinEX/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G6N8FDHBM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YegrCoinEX/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G6N8FDHBM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
